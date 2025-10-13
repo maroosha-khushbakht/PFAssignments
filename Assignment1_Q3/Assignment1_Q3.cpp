@@ -7,11 +7,11 @@ int main()
 	cout << "Enter three numbers: ";
 	cin >> n1 >> n2 >> n3;
 	
-	if (n1 >= n2 && n1 >= n3)
+	if (n1 > n2 && n1 > n3)
 	{
 		cout << "largest number: " << n1  << endl;
 	}
-	else if (n2 >= n1 && n2 >= n3)
+	else if (n2 > n1 && n2 > n3)
 	{
 		cout << "largest number: " << n2  << endl;
 	}
@@ -20,11 +20,11 @@ int main()
 		cout << "largest number: " << n3 << endl;
 	}
 
-	if (n1 <= n2 && n1 <= n3)
+	if (n1 < n2 && n1 < n3)
 	{
 		cout << "smallest number: " << n1 << endl;
 	}
-	else if (n2 <= n1 && n2 <= n3)
+	else if (n2 < n1 && n2 < n3)
 	{
 		cout << "smallest number: " << n2 << endl;
 	}

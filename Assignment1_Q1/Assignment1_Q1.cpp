@@ -27,7 +27,7 @@ int main()
 		cout << "Quotient: " << y / x << endl;
 
 
-	// After type casting to int, from here on out each operation is done on integers, due to which the answers will have no decimal pts.
+	// After type casting to int. from here on out each operation is done on integers, due to which the answers will have no decimal pts.
 
 	int a = (int)x, b = (int)y;
 	cout << "\nAfter type casting to int:\n";
