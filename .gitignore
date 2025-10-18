@@ -9,3 +9,13 @@ Release/
 *.vcxproj.filters
 *.vcxproj.user
 *.sln
+
+# Ignore compiled binaries and caches
+*.exe
+*.obj
+*.pdb
+*.user
+*.log
+*.suo
+*.cache
+*.db
