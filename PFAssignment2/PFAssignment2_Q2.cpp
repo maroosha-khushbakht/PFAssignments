@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-void reverseArray(int arr[], int n)
+void reverseArray(int (&arr)[6], int n)
 {
     int start = 0;
     int end = n - 1;
