@@ -77,11 +77,11 @@ int main()
 
     do
     {
-        cout << "1. Show" << endl:
-        cout << "2. Reserve" << endl:
-        cout << "3. Cancel" << endl:
-        cout << "4. Count" << endl:
-        cout << "0. Exit" << endl:
+        cout << "1. Show" << endl;
+        cout << "2. Reserve" << endl;
+        cout << "3. Cancel" << endl;
+        cout << "4. Count" << endl;
+        cout << "0. Exit" << endl;
 
         cin >> ch;
 
